@@ -1,0 +1,33 @@
+/*  These styles will apply to the entire page and can be overwritten */
+body{
+    /* Set the background color of the page, the font color, and the font family */
+    background: linear-gradient(#e4b06d, #ffe1a0);
+    color: black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* These are the sytles for the page title*/
+h1{
+    /* Set the color of the heading 1 to red and set the size to xx large */
+    color: rgb(235, 15, 15);
+    font-size: xx-large;
+    /* Add a slight gray text shadow */
+    text-shadow: 3px 1px rgb(58, 58, 58);    
+}
+
+/* These are styles for the next heading*/
+h2{
+    /* Set he color to purple, give it an orange background color to define the sections and a slight shadow */
+    color: rgb(175, 25, 212);
+    background-color: rgba(224, 135, 34, 0.37);
+    text-shadow: 1px 0px rgb(58, 58, 58);
+}
+
+h3{
+    color: rgb(50, 95, 243);
+    background-color: rgba(224, 135, 34, 0.37);
+}
+
+p{
+    font-size: larger;
+}
