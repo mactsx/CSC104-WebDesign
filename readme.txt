@@ -1,7 +1,12 @@
-Experiment with the different properties that affect text display, and various text formats to create effective and interesting page design. You can use for reference the constitution.html and style.css posted, which is just a plain black and white text version using some very basic CSS.
+This basic page will allow you to get some practice with the HTML elements and the development environment. 
 
-Be creative and come up with the formatting (text, background, spacing) to make this jump out and catch a viewer's attention.
+Objectives / Requirements
+Create a basic markup structure for an HTML document.
+Add title (W4 Assignment: Web Pages), headings, text, background, some images, and other items using the elements discussed in the reading from our textbook.
+Analyze browser presentation of HTML documents on various browsers.
+Use well formatted, easy-to-read, and commented code.
+Design a user-friendly interface, including readable output, with the interface being self-explaining
 
-File Names:
-main.html
+Files:
+basicpage.html
 style.css

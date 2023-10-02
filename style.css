@@ -1,33 +1,25 @@
-/*  These styles will apply to the entire page and can be overwritten */
+/* First link the style to the webpage html */
+/* Add the style guide for the body of the page */
 body{
-    /* Set the background color of the page, the font color, and the font family */
-    background: linear-gradient(#e4b06d, #ffe1a0);
-    color: black;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(27, 28, 30);
+    color: rgb(238, 217, 185);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-kerning: none;
+    font-size: large;
+    background-image: radial-gradient(#d3ebff 1%, transparent 5%), radial-gradient(#fffedc 1%, transparent 5%);     
+    background-position: 0 0, 30px 40px;
+    background-size: 100px 100px;
 }
 
-/* These are the sytles for the page title*/
+/* This sets the style for the h1 text */
 h1{
-    /* Set the color of the heading 1 to red and set the size to xx large */
-    color: rgb(235, 15, 15);
+    color: rgb(205, 167, 255);
     font-size: xx-large;
-    /* Add a slight gray text shadow */
-    text-shadow: 3px 1px rgb(58, 58, 58);    
+    text-shadow: 4px 5px rgb(60, 24, 70);
 }
 
-/* These are styles for the next heading*/
-h2{
-    /* Set he color to purple, give it an orange background color to define the sections and a slight shadow */
-    color: rgb(175, 25, 212);
-    background-color: rgba(224, 135, 34, 0.37);
-    text-shadow: 1px 0px rgb(58, 58, 58);
-}
-
-h3{
-    color: rgb(50, 95, 243);
-    background-color: rgba(224, 135, 34, 0.37);
-}
-
+/* Set the style for the paragraph text */
 p{
-    font-size: larger;
+    color: rgb(235, 235, 235);
+    
 }
