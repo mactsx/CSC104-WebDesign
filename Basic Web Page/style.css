@@ -1,0 +1,25 @@
+/* First link the style to the webpage html */
+/* Add the style guide for the body of the page */
+body{
+    background-color: rgb(27, 28, 30);
+    color: rgb(238, 217, 185);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-kerning: none;
+    font-size: large;
+    background-image: radial-gradient(#d3ebff 1%, transparent 5%), radial-gradient(#fffedc 1%, transparent 5%);     
+    background-position: 0 0, 30px 40px;
+    background-size: 100px 100px;
+}
+
+/* This sets the style for the h1 text */
+h1{
+    color: rgb(205, 167, 255);
+    font-size: xx-large;
+    text-shadow: 4px 5px rgb(60, 24, 70);
+}
+
+/* Set the style for the paragraph text */
+p{
+    color: rgb(235, 235, 235);
+    
+}
