@@ -1,0 +1,149 @@
+/*  These styles will apply to the entire page and can be overwritten */
+body{
+    /* Set the background color of the page, the font color, and the font family */
+    background: linear-gradient(rgb(15, 1, 1), black);
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif   
+}
+
+/* Style the logo image */
+.main-image img{
+    float: left;
+    margin-left: 15px;
+}
+
+/* Style the header box */
+header{
+    color: rgb(228, 228, 228);
+    background: linear-gradient(rgb(46, 1, 1), black);
+    text-align: center;
+    padding: 5px; 
+    border: 5px solid rgb(129, 4, 4);
+    border-radius: 10px;
+    
+    margin-top: 20px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+/* Style the band name bar */
+.band-name{
+    color: rgb(228, 228, 228);
+    background: rgb(129, 4, 4);
+    text-align: center;
+    font-size: xx-large;
+    width: 62%;
+    border: 6px solid rgb(46, 1, 1);
+
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+    display:inline-block;
+}
+
+
+/* Style the information box in the top right */
+.information{
+    background: rgb(29, 29, 29);
+    color: rgb(202, 55, 55);
+    float: right;
+    border: 3px solid rgb(95, 95, 95);
+    text-align: center;
+    width: 190px;
+    padding: 10px;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+
+/* Style the aside */
+aside{
+    color: red;
+    clear: left;
+    float: left;
+    background: rgb(29, 29, 29);
+    margin-top: 5px;
+    margin-right: 10px;
+    padding-bottom: 355px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 15px;
+    line-height: 1.8;
+}
+
+/* Style the table header */
+th{
+    font-size: x-large;
+    text-align: center;    
+}
+
+/* Style the table cell to differentiate it from the background */
+td{
+    padding-top: 7px;
+    padding-left: 12px;
+    padding-right: 20px;
+    background: rgb(20, 20, 20);
+    vertical-align: middle;
+}
+
+/* Add a border to the center table */
+.discography td{
+    border: 2px solid rgb(34, 34, 34);
+}
+
+/* Add a background color change when hovering over table items */
+td:hover{
+    background: rgb(17, 17, 17);
+}
+
+/* Style the flag image */
+img{
+    display: block;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+/* Add styling to the title of the page */
+.discography-title{
+    font-size: larger;
+}
+
+/* Style the main sections of the web page */
+.discography{
+    color: rgb(228, 228, 228);
+    border: 5px solid rgb(211, 29, 29);
+    display: inline-block;
+    padding-top: 5px;
+    padding-bottom: 150px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 5px;
+    width: 38%;
+    line-height: 1.7;
+    text-align: center;
+}
+
+/* Style the section about the band members */
+.band-info{
+    float: right;
+    font-size: larger;
+}
+/* Style the member table */
+.band-info table{
+    width: 400px;
+    padding-left: 10px;
+}
+/* Add padding to the member tables elements */
+.band-info td{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Style the footer of the page */
+footer{
+    color: rgb(202, 55, 55);
+    background: rgb(20, 20, 20);
+    text-align: center;
+    padding: 15px;
+    margin-top: 300px;
+    border-top: 5px solid rgb(56, 56, 56);
+}
