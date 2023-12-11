@@ -1,0 +1,150 @@
+/*  These styles will apply to the entire page and can be overwritten */
+body{
+    /* Set the background color of the page, the font color, and the font family */
+    background: linear-gradient(rgb(12, 1, 1), black);
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;   
+}
+
+/* Change the color of the hyperlinks */
+nav a{
+    color: rgb(234, 21, 57);
+}
+
+/* Change the searchbar hyperlink color */
+.searchbar nav a{
+    color: rgb(228, 228, 228);
+}
+
+/* Style the logo image */
+.main-image img{
+    float: left;
+    padding: 0;
+    margin-top: 25px;
+    margin-left: 15px;
+    border: 5px solid rgb(234, 21, 57);
+}
+
+/* Style the header box */
+header{
+    color: rgb(228, 228, 228);
+    background: linear-gradient(rgb(35, 16, 18), black);
+    text-align: center;
+    padding: 5px; 
+    border: 5px solid rgb(140, 15, 51);
+    border-radius: 10px;
+    
+    margin-top: 20px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+/* Style the main search bar */
+.searchbar{
+    color: rgb(228, 228, 228);
+    background: rgb(116, 11, 28);
+    text-align: center;
+    width: 62%;
+    border: 6px solid rgb(35, 16, 18);
+    font-size: large;
+
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+    display:inline-block;
+}
+
+/* Add a color change for the search when hovered over */
+.searchbar:hover{
+    background: rgb(82, 3, 3);
+}
+
+/* Style the information box in the top right */
+.information{
+    background: rgb(10, 10, 10);
+    color: rgb(234, 21, 57);
+    float: right;
+    border: 3px solid rgb(140, 15, 51);
+    text-align: center;
+    width: 190px;
+    padding: 10px;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+
+/* Style the aside */
+aside{
+    color: rgb(234, 21, 57);
+    clear: left;
+    float: left;
+    background: rgb(10, 10, 10);
+    width: 15%;
+    margin-top: 5px;
+    margin-right: 40px;
+    margin-left: 10px;
+    padding-bottom: 300px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 1.8;
+    font-size: large;
+    border: 3px solid rgb(140, 15, 51);
+}
+
+/* Add space between cells of the aside table */
+aside table{
+    border-spacing: 4px;
+}
+
+/* Style the table cell to differentiate it from the background */
+td{
+    padding-top: 7px;
+    padding-left: 10px;
+    padding-bottom: 7px;
+    width: 12%;
+    
+    background: rgb(5, 5, 5);
+    border: 2px solid rgb(24, 1, 1);
+}
+/* Change the color when an element in the table is hovered over */
+td:hover{
+    background: rgb(24, 1, 1);
+}
+
+/* Style the title for each news section */
+.section-head{
+    font-size: larger;
+    margin-left: 0%;
+    display: inline-block;
+    border-bottom: 5px solid rgb(24, 1, 1);
+    border-left: 5px solid rgb(24, 1, 1);
+    border-right: 5px solid rgb(24, 1, 1);
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+}
+
+/* Style the main sections of the web page */
+.news{
+    color: rgb(228, 228, 228);
+    text-align: center;    
+    border: 3px solid rgb(24, 1, 1);
+    display: inline-block;
+    padding-bottom: 150px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 5px;
+    margin-top: 35px;
+    width: 34%;
+    line-height: 1.8;
+}
+
+/* Style the footer of the page */
+footer{
+    color: rgb(234, 21, 57);
+    background: rgb(10, 10, 10);
+    text-align: center;
+    padding: 15px;
+    margin-top: 300px;
+    border-top: 5px solid rgb(140, 15, 51);
+}

@@ -1,0 +1,121 @@
+/*  These styles will apply to the entire page and can be overwritten */
+body{
+    /* Set the background color of the page, the font color, and the font family */
+    background: linear-gradient(rgb(12, 1, 1), black);
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;   
+}
+
+/* Change the color of the hyperlinks */
+nav a{
+    color: rgb(234, 21, 57);
+}
+
+/* Style the logo image */
+.main-image img{
+    float: left;
+    padding: 0;
+    margin-top: 25px;
+    margin-left: 15px;
+    border: 5px solid rgb(234, 21, 57);
+}
+
+/* Style the header box */
+header{
+    color: rgb(228, 228, 228);
+    background: linear-gradient(rgb(35, 16, 18), black);
+    text-align: center;
+    padding: 5px; 
+    border: 5px solid rgb(140, 15, 51);
+    border-radius: 10px;
+    
+    margin-top: 20px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+/* Style the band name bar */
+.page-title{
+    color: rgb(228, 228, 228);
+    background: rgb(116, 11, 28);
+    text-align: center;
+    font-size: x-large;
+    width: 62%;
+    border: 6px solid rgb(35, 16, 18);
+    margin-top: 10px;
+    margin-left: 60px;
+    display:inline-block;
+}
+
+/* Style the header text of each section */
+.section-head{
+    font-size: larger;
+    margin-left: 30%;
+    display: inline-block;
+    border-bottom: 5px solid rgb(24, 1, 1);
+    border-left: 5px solid rgb(24, 1, 1);
+    border-right: 5px solid rgb(24, 1, 1);
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/* Style the information box in the top right */
+.information{
+    background: rgb(10, 10, 10);
+    color: rgb(234, 21, 57);
+    float: right;
+    border: 3px solid rgb(140, 15, 51);
+    text-align: center;
+    width: 190px;
+    padding: 10px;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+
+/* Style the aside */
+aside{
+    color: rgb(234, 21, 57);
+    clear: right;
+    float: right;
+    background: rgb(10, 10, 10);
+    margin-top: 150px;
+    margin-right: 50px;
+    width: 28%;
+    text-align: center;
+    font-size: x-large;
+    padding-bottom: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 1.5;
+    border: 3px solid rgb(140, 15, 51);
+}
+
+/* Add a tab for formatting descriptions */
+.tab{
+    display: inline-block;
+    margin-left: 100px;
+}
+
+/* Style the main section */
+main{
+    margin-top: 50px;
+    margin-left: 110px;
+    padding-left: 40px;
+    padding-right: 15px;
+    width: 50%;
+    line-height: 1.3;
+    font-size: large;
+    border: 3px solid rgb(24, 1, 1);
+}
+
+
+/* Style the footer of the page */
+footer{
+    color: rgb(234, 21, 57);
+    background: rgb(10, 10, 10);
+    text-align: center;
+    padding: 15px;
+    line-height: 1.5;
+    margin-top: 300px;
+    border-top: 5px solid rgb(56, 56, 56);
+}
